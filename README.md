@@ -6,6 +6,8 @@ She would use a die-rolling web site and manually move a damage meter to play it
 I decided to turn it into an actual playable iOS game while learning SwiftUI. 
 The inital commit for this project is the result of that few hours of effort.
 
+<img width="779" alt="Screen Shot 2022-03-06 at 11 44 31 AM" src="https://user-images.githubusercontent.com/4369/156939525-7c37ae19-bbbb-478d-b9eb-172f50a53edb.png">
+
 ### Game Play
 - Each player rolls (die simulation) a 1-6 random value during their turn.
 - A 6 means no damage is inflicted on the opponent

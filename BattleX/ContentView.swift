@@ -10,8 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var gameState : GameState
     
-    let dieView = DieView()
-    
     var body: some View {
         VStack {
             Text("BattleX")
@@ -34,7 +32,7 @@ struct ContentView: View {
                         gameState.player1Doubling ? Color.green : Color.gray,
                         width: gameState.player1Active ? 5 : 1)
                 Spacer()
-                dieView
+                DieView()
                 Spacer()
                 Image("mouse")
                     .resizable()
@@ -51,9 +49,14 @@ struct ContentView: View {
                         gameState.reset()
                     }
                 } else {
-                    Button(gameState.player1Active ? "< Roll" : "Roll >") {
+                    Button(gameState.player1Active ? "Hedgehog Roll" : "Mouse Roll") {
                             gameState.rollDie()
-                    }.disabled(gameState.isRolling)
+                    }
+                    .foregroundColor(Color.black)
+                    .tint(gameState.player1Active ? Color.blue : Color.orange)
+                    .buttonStyle(.bordered)
+                    .controlSize(.large)
+                    .disabled(gameState.isRolling)
                 }
                 Spacer()
             }

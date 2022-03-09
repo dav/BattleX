@@ -18,6 +18,7 @@
 		574E6B6F27D3C705000E0D38 /* DamageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E6B6E27D3C705000E0D38 /* DamageView.swift */; };
 		574E6B7127D3C968000E0D38 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E6B7027D3C968000E0D38 /* GameState.swift */; };
 		574E6B7327D40DF1000E0D38 /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E6B7227D40DF1000E0D38 /* DieView.swift */; };
+		577853C327D84B6B006B71E3 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577853C227D84B6B006B71E3 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		574E6B6E27D3C705000E0D38 /* DamageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageView.swift; sourceTree = "<group>"; };
 		574E6B7027D3C968000E0D38 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		574E6B7227D40DF1000E0D38 /* DieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
+		577853C227D84B6B006B71E3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		57A5FA7527D5402A007149F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +155,7 @@
 			children = (
 				574E6B6E27D3C705000E0D38 /* DamageView.swift */,
 				574E6B7227D40DF1000E0D38 /* DieView.swift */,
+				577853C227D84B6B006B71E3 /* GameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				574E6B6B27D3C480000E0D38 /* DamageViewModel.swift in Sources */,
 				572B1B8727D28CDD00E9ECEE /* BattleXApp.swift in Sources */,
 				574E6B7327D40DF1000E0D38 /* DieView.swift in Sources */,
+				577853C327D84B6B006B71E3 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
